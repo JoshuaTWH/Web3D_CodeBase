@@ -33,7 +33,7 @@
         {
             "title": "Information about the website",
             "subTitle_error": "Errors and Problem",
-            "description_e1": "1. The hook.php is having a internal error, after inspecting the error log there is a syntax error in line 9 which is the same as in the lab tutorial.",
+            "description_e1": "1. The hook.php and gallery_generator.js is running fine but the image is not showing even it have the right html code.",
             "description_e2": "2. The model should have simple animation, but it cannot use the onclick() function to trigger the animation even after modify the x3d file as told in lab6.",
             "description_e3": "3. The model in 3ds max look quite different from the cortana viewer, the material and the light seems to be quite different. To made it look better in the website the model is 3ds max is a bit messy.",
             "subTitle_info": "Information",

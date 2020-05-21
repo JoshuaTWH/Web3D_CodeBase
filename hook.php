@@ -1,16 +1,16 @@
 <?php
 //Specify the path to the thumbnail images
-$directory = '../assets/images';
+$directory = 'assets/gallery';
 //Only load files with the following extensions
 $allowed_extensions = array('jpg','jpeg','gif','png');
 //An array used to separate the extension from each file
-$file_parts = array()
+$file_parts = array();
 //response message
 $response = "";
 //Open the directory to parse the images
-$dir_handee = opendir($directory);
+$dir_handle = opendir($directory);
 //Iterate through all the files
-while ($file = readdir($dir_handee)){
+while ($file = readdir($dir_handle)){
     //first check for hidden files
     if(substr($file, 0, 1) != '.'){
         //split each file name to extract the file extension

@@ -23,7 +23,7 @@ $(document).ready(function(){
             response = xmlHttp.responseText.split("~");
             for (var i =0; i < response.length; i++){
                 htmlcode += '<a>';
-                htmlcode += '<img class="card-img-top" scr="../assets/images/' + response[i] + '"id="image_thumbnail"/>';
+                htmlcode += '<img class="card-img-top img-thumbnail" scr="' + response[i] + '"/>';
                 htmlcode += '</a>';
             }
             document.getElementById('gallery').innerHTML = htmlcode;
