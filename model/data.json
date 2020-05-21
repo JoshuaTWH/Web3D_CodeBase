@@ -1,0 +1,44 @@
+{
+    "pageTextData":[
+        {
+            "title": "Coca cola Great Britain",
+            "subTitle": "Founded by Dr John S Pemberton",
+            "description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+        },
+
+        {
+            "title": "Coca Cola",
+            "subTitle": "New York Harbour, 1886",
+            "description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+        },
+
+        {
+            "title": "Sprite",
+            "subTitle": "West Germany, 1959",
+            "description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our nosugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+        },
+
+        {
+            "title": "Metal Cup",
+            "subTitle": "Earth, ????",
+            "description": "A cup made by metal."
+        },
+
+        {
+            "title": "Switch",
+            "subTitle": "Japan, 2019",
+            "description": "A new handheld console made by Nintendo."
+        },
+        
+        {
+            "title": "Information about the website",
+            "subTitle_error": "Errors and Problem",
+            "description_e1": "1. The hook.php is having a internal error, after inspecting the error log there is a syntax error in line 9 which is the same as in the lab tutorial.",
+            "description_e2": "2. The model should have simple animation, but it cannot use the onclick() function to trigger the animation even after modify the x3d file as told in lab6.",
+            "description_e3": "3. The model in 3ds max look quite different from the cortana viewer, the material and the light seems to be quite different. To made it look better in the website the model is 3ds max is a bit messy.",
+            "subTitle_info": "Information",
+            "description_i1": "1. The coke can and sprite is made in 3ds Max, while the metal cup in made in Cinema 4D and the switch in made in blender.",
+            "description_i2": "2. The two model which is not made in 3dx Max are import to 3ds Max to make it export to VRML97 file, as blender and cinema 4D VRML file is different a 3ds Max VRML file and cannot use instantreality to convert to a x3d file."
+        }
+    ]
+}
